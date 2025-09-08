@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\2DS - DanielYHernan\PAM\TIpTime\TipTime\TipTime\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-09-02T00:06:43.689</Modified>
+      <Modified>2025-09-08T23:33:07.708</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\TIpTime\TipTime\TipTime\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-01T23:21:43.093</Modified>
+      <Modified>2025-09-08T22:44:52.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\TIpTime\TipTime\TipTime\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TipTime.runtimeconfig.json">
       <PackagePath>TipTime.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\TIpTime\TipTime\TipTime\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TipTime.dll">
       <PackagePath>TipTime.dll</PackagePath>
-      <Modified>2025-09-02T00:06:42.866</Modified>
+      <Modified>2025-09-08T23:33:07.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\TIpTime\TipTime\TipTime\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TipTime.exe</PackagePath>
-      <Modified>2025-09-02T00:06:42.881</Modified>
+      <Modified>2025-09-08T23:33:07.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\TIpTime\TipTime\TipTime\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -292,7 +292,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\TIpTime\TipTime\TipTime\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TipTime.deps.json">
       <PackagePath>TipTime.deps.json</PackagePath>
-      <Modified>2025-09-01T23:21:42.905</Modified>
+      <Modified>2025-09-08T22:44:51.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\NugetPackages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

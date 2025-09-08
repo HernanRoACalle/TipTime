@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TipTime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+87ecece434906130d9c020ec5e85190aa1c53bf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TipTime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TipTime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

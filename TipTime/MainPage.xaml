@@ -20,21 +20,21 @@
                  />
             <Label
                 x:Name="ValorGorjetaLabel"
-                Text="0,00"
+                Text="R$ 0,00"
                 />
             <Label
                 Text="Total"
                 />
             <Label
                 x:Name="ValorTotalLabel"
-                Text="0,00"
+                Text="R$ 0,00"
                 />
             <Label
                 Text="Valor Final"
                 />
             <Label 
                 x:Name="GorjetaFinal"
-                Text=""/>
+                Text="R$ 0,00"/>
             <Label
                 Text="Tip Percentage"
             />
@@ -49,7 +49,7 @@
                 x:Name="porcentagemSlider"
                 ValueChanged="porcentagemSlider_ValueChanged"
                 />
-
+            <HorizontalStackLayout></HorizontalStackLayout>    
             <Button
                 x:Name="quinzePorcento"
                 Text="15%" 

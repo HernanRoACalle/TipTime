@@ -4,7 +4,6 @@ namespace TipTime
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
@@ -14,15 +13,33 @@ namespace TipTime
         private void quinzePorcento_Clicked(object sender, EventArgs e)
         {
             porcentagemSlider.Value = 15;
+            string Texto = ValorGorjetaEntry.Text;
+            double num = Double.Parse(Texto);
+            double porcento = num * (porcentagemSlider.Value / 100);
+            double total = porcento + num;
+            double final = total + num;
+
+            ValorGorjetaLabel.Text = $"R$ {porcento:F2}";
+            ValorTotalLabel.Text = $"R$ {num:F2}";
+            GorjetaFinal.Text = $"R$ {total:F2}";
+            Porcentagem.Text = $"{porcentagemSlider.Value}%";
+
+
         }
         private void vinteporcento_Clicked(object sender, EventArgs e)
         {
-            string Texto = ValorGorjetaEntry.Text;
             porcentagemSlider.Value = 20;
+            string Texto = ValorGorjetaEntry.Text;
             double num = Double.Parse(Texto);
             double porcento = num * ( porcentagemSlider.Value / 100);
-
-            GorjetaFinal.Text = $"Gorjeta: R$ {porcento:F2}";
+            double total = porcento + num;
+            double final = total + num;
+            
+            ValorGorjetaLabel.Text = $"R$ {porcento:F2}";
+            ValorTotalLabel.Text = $"R$ {num:F2}";
+            GorjetaFinal.Text = $"R$ {total:F2}";
+            Porcentagem.Text = $"{porcentagemSlider.Value}%";
+            
 
         }
 
