@@ -22,13 +22,7 @@
                 x:Name="ValorGorjetaLabel"
                 Text="R$ 0,00"
                 />
-            <Label
-                Text="Total"
-                />
-            <Label
-                x:Name="ValorTotalLabel"
-                Text="R$ 0,00"
-                />
+            
             <Label
                 Text="Valor Final"
                 />
@@ -46,6 +40,7 @@
             <Slider
                 Maximum="100"
                 Minimum="0"
+                
                 x:Name="porcentagemSlider"
                 ValueChanged="porcentagemSlider_ValueChanged"
                 />
